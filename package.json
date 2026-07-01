@@ -6,8 +6,8 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir dist --public-url /homee-work-8/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
+    
   },
   "deploy": "gh-pages -d dist",
   "keywords": [],
@@ -15,7 +15,6 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "gh-pages": "^6.3.0",
     "parcel": "^2.16.4",
     "parcel-transformer-handlebars": "^1.0.0"
   },
