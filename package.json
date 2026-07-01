@@ -1,0 +1,22 @@
+{
+  "name": "homee-work-8",
+  "version": "1.0.0",
+  "description": "",
+"scripts": {
+  "start": "parcel src/index.html",
+  "build": "parcel build src/index.html"
+},
+    "deploy": "gh-pages -d dist"
+  ,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "parcel-transformer-handlebars": "^1.0.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.9"
+  }
+}
